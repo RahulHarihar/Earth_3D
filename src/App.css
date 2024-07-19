@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+
+canvas{
+    height: 100vh !important;
+}
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  .container {
+    width: 30%; /* Use full width of the screen */
+    padding: 1rem;
+    color: #fff;
+    position: absolute; /* Position the container absolutely */
+    top: 30%; /* Align it to the top */
+    left: 10px; /* Align it to the left */
+    pointer-events: none;
+  }
+
+  .container p{
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.3rem;
+    margin: 3;
+  }
+
+  .container h1{
+  font-family: "Bona Nova SC", serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 4rem;
+  margin: 0;
+  }
+  
