@@ -2,8 +2,8 @@ import React, { Suspense } from 'react';
 import './App.css';
 import { Canvas } from '@react-three/fiber';
 import { Environment, OrbitControls } from '@react-three/drei';
-import Earth from './components/Earth'; // Ensure this path is correct
-import Stars from './components/Stars'; // Ensure this path is correct
+import Earth from './components/Earth'; 
+import Stars from './components/Stars'; 
 
 function App() {
   return (
