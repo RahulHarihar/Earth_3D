@@ -6,6 +6,7 @@ import Earth from './components/Earth';
 import Stars from './components/Stars'; 
 
 function App() {
+  alert("Please wait for some time till the model loads")
   return (
     <>
       <Canvas>
